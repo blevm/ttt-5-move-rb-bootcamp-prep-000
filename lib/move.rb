@@ -11,12 +11,12 @@ def input_to_index(x)
 end
 
 def move(board, position, player="X")
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  position = input_to_index(x)
-  def update_array_at_with(array, index, value)
+  #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  #position = input_to_index(x)
+  #def update_array_at_with(array, index, value)
     array[index] = value
-  end
-  update_array_at_with(board, position, player)
-  puts board
+  #end
+  #update_array_at_with(board, position, player)
+  #puts board
 end
 # code your input_to_index and move method here!
