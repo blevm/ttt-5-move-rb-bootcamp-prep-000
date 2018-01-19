@@ -11,7 +11,7 @@ def input_to_index(x)
   puts input
 end
 
-def move(board, board[x],player = "X")
- input_to_index()
-end
+# def move(board, board[x],player = "X")
+ # input_to_index()
+# end
 # code your input_to_index and move method here!
