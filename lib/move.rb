@@ -10,7 +10,7 @@ def input_to_index(x)
   x.to_i - 1
 end
 
-def move(board, position, player= "X")
+def move(board, position, player="X")
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   position = input_to_index(x)
   def update_array_at_with(array, index, value)
