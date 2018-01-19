@@ -11,8 +11,8 @@ def input_to_index(x)
 end
 
 def move(board, position, player = "X")
-  def update_array_at_with(array, position, value)
-    array[position] = value
+  def update_array_at_with(array, index, value)
+    array[index] = value
   end
   update_array_at_with(board, position, player)
   display_board(board)
